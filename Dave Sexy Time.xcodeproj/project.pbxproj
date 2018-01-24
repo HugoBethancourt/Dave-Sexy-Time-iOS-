@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		777239602019457800FD829D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772395F2019457800FD829D /* AppDelegate.swift */; };
+		777239622019457800FD829D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239612019457800FD829D /* FirstViewController.swift */; };
+		777239642019457900FD829D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239632019457900FD829D /* SecondViewController.swift */; };
+		777239672019457900FD829D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777239652019457900FD829D /* Main.storyboard */; };
+		777239692019457900FD829D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777239682019457900FD829D /* Assets.xcassets */; };
+		7772396C2019457900FD829D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7772396A2019457900FD829D /* LaunchScreen.storyboard */; };
+		777239772019457900FD829D /* Dave_Sexy_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239762019457900FD829D /* Dave_Sexy_TimeTests.swift */; };
+		777239822019457900FD829D /* Dave_Sexy_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239812019457900FD829D /* Dave_Sexy_TimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		777239732019457900FD829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777239542019457800FD829D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7772395B2019457800FD829D;
+			remoteInfo = "Dave Sexy Time";
+		};
+		7772397E2019457900FD829D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 777239542019457800FD829D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7772395B2019457800FD829D;
+			remoteInfo = "Dave Sexy Time";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7772395C2019457800FD829D /* Dave Sexy Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dave Sexy Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7772395F2019457800FD829D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		777239612019457800FD829D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		777239632019457900FD829D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		777239662019457900FD829D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		777239682019457900FD829D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7772396B2019457900FD829D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7772396D2019457900FD829D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		777239722019457900FD829D /* Dave Sexy TimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dave Sexy TimeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777239762019457900FD829D /* Dave_Sexy_TimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dave_Sexy_TimeTests.swift; sourceTree = "<group>"; };
+		777239782019457900FD829D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7772397D2019457900FD829D /* Dave Sexy TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dave Sexy TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		777239812019457900FD829D /* Dave_Sexy_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dave_Sexy_TimeUITests.swift; sourceTree = "<group>"; };
+		777239832019457900FD829D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777239592019457800FD829D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7772396F2019457900FD829D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7772397A2019457900FD829D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		777239532019457800FD829D = {
+			isa = PBXGroup;
+			children = (
+				7772395E2019457800FD829D /* Dave Sexy Time */,
+				777239752019457900FD829D /* Dave Sexy TimeTests */,
+				777239802019457900FD829D /* Dave Sexy TimeUITests */,
+				7772395D2019457800FD829D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7772395D2019457800FD829D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7772395C2019457800FD829D /* Dave Sexy Time.app */,
+				777239722019457900FD829D /* Dave Sexy TimeTests.xctest */,
+				7772397D2019457900FD829D /* Dave Sexy TimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7772395E2019457800FD829D /* Dave Sexy Time */ = {
+			isa = PBXGroup;
+			children = (
+				7772395F2019457800FD829D /* AppDelegate.swift */,
+				777239612019457800FD829D /* FirstViewController.swift */,
+				777239632019457900FD829D /* SecondViewController.swift */,
+				777239652019457900FD829D /* Main.storyboard */,
+				777239682019457900FD829D /* Assets.xcassets */,
+				7772396A2019457900FD829D /* LaunchScreen.storyboard */,
+				7772396D2019457900FD829D /* Info.plist */,
+			);
+			path = "Dave Sexy Time";
+			sourceTree = "<group>";
+		};
+		777239752019457900FD829D /* Dave Sexy TimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				777239762019457900FD829D /* Dave_Sexy_TimeTests.swift */,
+				777239782019457900FD829D /* Info.plist */,
+			);
+			path = "Dave Sexy TimeTests";
+			sourceTree = "<group>";
+		};
+		777239802019457900FD829D /* Dave Sexy TimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				777239812019457900FD829D /* Dave_Sexy_TimeUITests.swift */,
+				777239832019457900FD829D /* Info.plist */,
+			);
+			path = "Dave Sexy TimeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7772395B2019457800FD829D /* Dave Sexy Time */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777239862019457900FD829D /* Build configuration list for PBXNativeTarget "Dave Sexy Time" */;
+			buildPhases = (
+				777239582019457800FD829D /* Sources */,
+				777239592019457800FD829D /* Frameworks */,
+				7772395A2019457800FD829D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dave Sexy Time";
+			productName = "Dave Sexy Time";
+			productReference = 7772395C2019457800FD829D /* Dave Sexy Time.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777239712019457900FD829D /* Dave Sexy TimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777239892019457900FD829D /* Build configuration list for PBXNativeTarget "Dave Sexy TimeTests" */;
+			buildPhases = (
+				7772396E2019457900FD829D /* Sources */,
+				7772396F2019457900FD829D /* Frameworks */,
+				777239702019457900FD829D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				777239742019457900FD829D /* PBXTargetDependency */,
+			);
+			name = "Dave Sexy TimeTests";
+			productName = "Dave Sexy TimeTests";
+			productReference = 777239722019457900FD829D /* Dave Sexy TimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7772397C2019457900FD829D /* Dave Sexy TimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7772398C2019457900FD829D /* Build configuration list for PBXNativeTarget "Dave Sexy TimeUITests" */;
+			buildPhases = (
+				777239792019457900FD829D /* Sources */,
+				7772397A2019457900FD829D /* Frameworks */,
+				7772397B2019457900FD829D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7772397F2019457900FD829D /* PBXTargetDependency */,
+			);
+			name = "Dave Sexy TimeUITests";
+			productName = "Dave Sexy TimeUITests";
+			productReference = 7772397D2019457900FD829D /* Dave Sexy TimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777239542019457800FD829D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Next Level Technology LLC";
+				TargetAttributes = {
+					7772395B2019457800FD829D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					777239712019457900FD829D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7772395B2019457800FD829D;
+					};
+					7772397C2019457900FD829D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7772395B2019457800FD829D;
+					};
+				};
+			};
+			buildConfigurationList = 777239572019457800FD829D /* Build configuration list for PBXProject "Dave Sexy Time" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 777239532019457800FD829D;
+			productRefGroup = 7772395D2019457800FD829D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7772395B2019457800FD829D /* Dave Sexy Time */,
+				777239712019457900FD829D /* Dave Sexy TimeTests */,
+				7772397C2019457900FD829D /* Dave Sexy TimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7772395A2019457800FD829D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7772396C2019457900FD829D /* LaunchScreen.storyboard in Resources */,
+				777239692019457900FD829D /* Assets.xcassets in Resources */,
+				777239672019457900FD829D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777239702019457900FD829D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7772397B2019457900FD829D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777239582019457800FD829D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777239642019457900FD829D /* SecondViewController.swift in Sources */,
+				777239602019457800FD829D /* AppDelegate.swift in Sources */,
+				777239622019457800FD829D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7772396E2019457900FD829D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777239772019457900FD829D /* Dave_Sexy_TimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777239792019457900FD829D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777239822019457900FD829D /* Dave_Sexy_TimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		777239742019457900FD829D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7772395B2019457800FD829D /* Dave Sexy Time */;
+			targetProxy = 777239732019457900FD829D /* PBXContainerItemProxy */;
+		};
+		7772397F2019457900FD829D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7772395B2019457800FD829D /* Dave Sexy Time */;
+			targetProxy = 7772397E2019457900FD829D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		777239652019457900FD829D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777239662019457900FD829D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7772396A2019457900FD829D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7772396B2019457900FD829D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		777239842019457900FD829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		777239852019457900FD829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777239872019457900FD829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG75NDY28F;
+				INFOPLIST_FILE = "Dave Sexy Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NLTSF.Dave-Sexy-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		777239882019457900FD829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG75NDY28F;
+				INFOPLIST_FILE = "Dave Sexy Time/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NLTSF.Dave-Sexy-Time";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7772398A2019457900FD829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG75NDY28F;
+				INFOPLIST_FILE = "Dave Sexy TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NLTSF.Dave-Sexy-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dave Sexy Time.app/Dave Sexy Time";
+			};
+			name = Debug;
+		};
+		7772398B2019457900FD829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG75NDY28F;
+				INFOPLIST_FILE = "Dave Sexy TimeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NLTSF.Dave-Sexy-TimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dave Sexy Time.app/Dave Sexy Time";
+			};
+			name = Release;
+		};
+		7772398D2019457900FD829D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG75NDY28F;
+				INFOPLIST_FILE = "Dave Sexy TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NLTSF.Dave-Sexy-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dave Sexy Time";
+			};
+			name = Debug;
+		};
+		7772398E2019457900FD829D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BG75NDY28F;
+				INFOPLIST_FILE = "Dave Sexy TimeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NLTSF.Dave-Sexy-TimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dave Sexy Time";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		777239572019457800FD829D /* Build configuration list for PBXProject "Dave Sexy Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777239842019457900FD829D /* Debug */,
+				777239852019457900FD829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777239862019457900FD829D /* Build configuration list for PBXNativeTarget "Dave Sexy Time" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777239872019457900FD829D /* Debug */,
+				777239882019457900FD829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777239892019457900FD829D /* Build configuration list for PBXNativeTarget "Dave Sexy TimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7772398A2019457900FD829D /* Debug */,
+				7772398B2019457900FD829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7772398C2019457900FD829D /* Build configuration list for PBXNativeTarget "Dave Sexy TimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7772398D2019457900FD829D /* Debug */,
+				7772398E2019457900FD829D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 777239542019457800FD829D /* Project object */;
+}
