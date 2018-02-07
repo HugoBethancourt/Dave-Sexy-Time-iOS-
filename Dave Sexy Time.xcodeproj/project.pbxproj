@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775CF2BE2019BA35007186EF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775CF2BD2019BA35007186EF /* FirstViewController.swift */; };
 		777239602019457800FD829D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7772395F2019457800FD829D /* AppDelegate.swift */; };
-		777239622019457800FD829D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239612019457800FD829D /* FirstViewController.swift */; };
 		777239642019457900FD829D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239632019457900FD829D /* SecondViewController.swift */; };
 		777239672019457900FD829D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 777239652019457900FD829D /* Main.storyboard */; };
 		777239692019457900FD829D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 777239682019457900FD829D /* Assets.xcassets */; };
 		7772396C2019457900FD829D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7772396A2019457900FD829D /* LaunchScreen.storyboard */; };
 		777239772019457900FD829D /* Dave_Sexy_TimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239762019457900FD829D /* Dave_Sexy_TimeTests.swift */; };
 		777239822019457900FD829D /* Dave_Sexy_TimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777239812019457900FD829D /* Dave_Sexy_TimeUITests.swift */; };
+		77C829AF202A5D8200AED93E /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C829AE202A5D8200AED93E /* LogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		775CF2BD2019BA35007186EF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		7772395C2019457800FD829D /* Dave Sexy Time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dave Sexy Time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7772395F2019457800FD829D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		777239612019457800FD829D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		777239632019457900FD829D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		777239662019457900FD829D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		777239682019457900FD829D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		7772397D2019457900FD829D /* Dave Sexy TimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dave Sexy TimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		777239812019457900FD829D /* Dave_Sexy_TimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dave_Sexy_TimeUITests.swift; sourceTree = "<group>"; };
 		777239832019457900FD829D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77C829AE202A5D8200AED93E /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				7772395F2019457800FD829D /* AppDelegate.swift */,
-				777239612019457800FD829D /* FirstViewController.swift */,
+				775CF2BD2019BA35007186EF /* FirstViewController.swift */,
 				777239632019457900FD829D /* SecondViewController.swift */,
+				77C829AE202A5D8200AED93E /* LogViewController.swift */,
 				777239652019457900FD829D /* Main.storyboard */,
 				777239682019457900FD829D /* Assets.xcassets */,
 				7772396A2019457900FD829D /* LaunchScreen.storyboard */,
@@ -262,9 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775CF2BE2019BA35007186EF /* FirstViewController.swift in Sources */,
 				777239642019457900FD829D /* SecondViewController.swift in Sources */,
 				777239602019457800FD829D /* AppDelegate.swift in Sources */,
-				777239622019457800FD829D /* FirstViewController.swift in Sources */,
+				77C829AF202A5D8200AED93E /* LogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
